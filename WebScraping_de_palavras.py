@@ -12,7 +12,7 @@ titulos = []
 
 for link in bsObj.find_all("h1"):
 
-    titulos.append(link.text)  # Pega todos so links da pagina
+    titulos.append(link.text)  # adiciona todos so links da pagina
 
 
 # Separa todos os titulos e agrupa na variavel usando List Comprehension
@@ -46,7 +46,7 @@ for i in range(len(todos)):  # Percorre todos as palavras
             quantidade.append(todos.count(todos[i]))
 
 
-# pPegas as duas variaveis coom o nomes e quantidades e geram o data frame
+
 lista_de_tuplas = list(zip(nome, quantidade))
 df = pd.DataFrame(
     lista_de_tuplas,

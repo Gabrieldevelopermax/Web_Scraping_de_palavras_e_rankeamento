@@ -1,1 +1,1 @@
-Realização de um web scraping com o BeautifulSoup Python
+Realização de um web scraping com Python e BeautifulSoup 
