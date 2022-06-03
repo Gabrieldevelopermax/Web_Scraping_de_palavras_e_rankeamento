@@ -1,0 +1,1 @@
+Realização de um web scraping com o BeautifulSoup Python
